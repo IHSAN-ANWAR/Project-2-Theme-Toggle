@@ -1,0 +1,29 @@
+*{
+    padding: 0;margin: 0;
+}
+
+.dark-mode {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    padding: 15px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    border-radius:5% ;
+    outline: none;
+    border: none;
+    transition: 0.3s all ease-in-out;
+    background: rgb(174, 180, 172);
+}
+
+button:hover{
+    background-color: #29a3db;
+    cursor: pointer;
+}
